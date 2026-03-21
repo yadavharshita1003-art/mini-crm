@@ -1,0 +1,119 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* NAV */
+nav {
+  background: #2c3e50;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 { color: white; font-size: 20px; }
+nav button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* LOGIN */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-box {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+  width: 350px;
+}
+.login-box h2 { margin-bottom: 20px; text-align: center; color: #2c3e50; }
+
+/* FORM */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+label { font-size: 14px; font-weight: 600; }
+button.btn {
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 5px;
+}
+button.btn:hover { background: #34495e; }
+button.btn-success { background: #27ae60; }
+button.btn-danger { background: #e74c3c; width: auto; }
+
+/* TABLE */
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; font-size: 14px; }
+th { background: #f8f9fa; font-weight: 600; }
+tr:hover { background: #f8f9fa; }
+
+/* BADGE */
+.badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.badge-new { background: #d5f5e3; color: #27ae60; }
+.badge-contacted { background: #fef9e7; color: #f39c12; }
+.badge-converted { background: #d6eaf8; color: #2980b9; }
+
+/* TOP BAR */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.top-bar h2 { color: #2c3e50; }
+.btn-add {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* ERROR */
+.error { color: #e74c3c; font-size: 13px; margin-top: 10px; text-align: center; }
